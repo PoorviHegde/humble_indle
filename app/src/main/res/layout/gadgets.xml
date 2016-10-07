@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What do you want to give?"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="80dp"
+        android:textSize="20dp"
+        android:textColor="#3c0808"
+        android:fontFamily="sans-serif"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile Phone"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:id="@+id/mobile"
+        android:textColor="#2147d2"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Smart Phone"
+        android:layout_marginTop="30dp"
+        android:id="@+id/smartphone"
+        android:textSize="20dp"
+        android:textColor="#2147d2" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tablet"
+        android:layout_marginTop="30dp"
+        android:id="@+id/tablet"
+        android:textSize="20dp"
+        android:textColor="#2147d2" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Laptop"
+        android:layout_marginTop="30dp"
+        android:id="@+id/laptop"
+        android:textSize="20dp"
+        android:textColor="#2147d2" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Desktop"
+        android:layout_marginTop="30dp"
+        android:id="@+id/desktop"
+        android:textSize="20dp"
+        android:textColor="#2147d2" />
+
+
+</LinearLayout>
